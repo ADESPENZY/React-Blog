@@ -2,7 +2,7 @@ import axios from "axios"
 import { jwtDecode } from "jwt-decode"
 
 
-export const BASE_URL = "http://127.0.0.1:8000"
+export const BASE_URL = "https://s7p2pxkt-8000.uks1.devtunnels.ms/"
 
 const api = axios.create({
     baseURL: BASE_URL
